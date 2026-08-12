@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ace Prime - We Design. Automate. Scale.</title>
+<meta name="description" content="Ace Prime builds the website, CRM, and marketing system that work together, so leads get captured, followed up, and converted automatically.">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:title" content="Ace Prime - We Design. Automate. Scale.">
+<meta property="og:description" content="Ace Prime builds the website, CRM, and marketing system that work together, so leads get captured, followed up, and converted automatically.">
+<meta property="og:url" content="https://aceprime.co/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://aceprime.co/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://aceprime.co/og-image.png">
+<meta name="twitter:title" content="Ace Prime - We Design. Automate. Scale.">
+<meta name="twitter:description" content="Ace Prime builds the website, CRM, and marketing system that work together, so leads get captured, followed up, and converted automatically.">
+<link rel="canonical" href="https://aceprime.co/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Ace Prime",
+  "url": "https://aceprime.co",
+  "description": "Ace Prime is a full-service digital agency offering web design, digital marketing, AI automation, CRM setup, email marketing, and workflow automation. We Design. Automate. Scale.",
+  "email": "aceprime.ceo@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "NG"
+  },
+  "areaServed": "Worldwide",
+  "serviceType": [
+    "Web Design",
+    "Digital Marketing",
+    "AI Automation",
+    "CRM Setup",
+    "Email Marketing",
+    "Workflow Automation"
+  ],
+  "sameAs": [
+    "https://linkedin.com/in/aceprime",
+    "https://instagram.com/aceprime.co",
+    "https://x.com/aceprime_co",
+    "https://youtube.com/@AcePrime_co",
+    "https://pinterest.com/aceprime_co",
+    "https://medium.com/@aceprime"
+  ]
+}
+</script>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="/" class="logo">Ace<span>Prime</span></a>
+    <nav class="nav-links">
+      <a href="/" class="active">Home</a>
+      <a href="/about">About</a>
+      <a href="/services">Services</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/pricing">Pricing</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a href="https://calendly.com/aceprime-ceo/new-meeting" target="_blank" rel="noopener" class="btn btn-primary btn-small">Book a call</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="/" onclick="closeMenu()">Home</a>
+    <a href="/about" onclick="closeMenu()">About</a>
+    <a href="/services" onclick="closeMenu()">Services</a>
+    <a href="/portfolio" onclick="closeMenu()">Portfolio</a>
+    <a href="/pricing" onclick="closeMenu()">Pricing</a>
+    <a href="/contact" onclick="closeMenu()">Contact</a>
+    <a href="https://calendly.com/aceprime-ceo/new-meeting" target="_blank" rel="noopener" class="btn btn-primary btn-small" onclick="closeMenu()">Book a call</a>
+  </div>
+</header>
+
+<div class="hero-card">
+
+  <!-- HERO CONTENT -->
+  <div class="hero-card-body">
+    <div class="hero-card-text">
+      <div class="hero-eyebrow">
+        <span class="hero-dot"></span>
+        <span>AI-Powered Digital Agency</span>
+      </div>
+      <h1 class="hero-headline">
+        Your next client<br>is already online.<br>
+        <em>Your system isn't<br>ready for them.</em>
+      </h1>
+      <p class="hero-sub">A site that doesn't convert. A CRM full of leads nobody followed up. Ads running with no way to track what's working. We fix all three, connected, in two weeks.</p>
+      <p class="hero-tagline-line">DESIGN · AUTOMATE · SCALE</p>
+      <div class="hero-card-cta">
+        <a href="https://calendly.com/aceprime-ceo/new-meeting" target="_blank" rel="noopener" class="btn btn-hero-primary">Book your free audit</a>
+        <a href="/services" class="btn btn-hero-outline">See what we build</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- scroll indicator -->
+  <div class="hero-scroll-indicator" aria-hidden="true">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+  </div>
+
+</div>
+
+<!-- service tag strip below card -->
+<div class="hero-strip">
+  <div class="hero-strip-inner">
+    <span>Web design</span>
+    <span class="strip-dot">·</span>
+    <span>Digital marketing</span>
+    <span class="strip-dot">·</span>
+    <span>AI automation</span>
+    <span class="strip-dot">·</span>
+    <span>CRM systems</span>
+    <span class="strip-dot">·</span>
+    <span>Email marketing</span>
+    <span class="strip-dot">·</span>
+    <span>Workflow automation</span>
+  </div>
+</div>
+
+
+<section id="services" class="section-light">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="tag">What we do</span>
+      <h2>One system. Three layers. Each one makes the next one worth more.</h2>
+    </div>
+    <div class="pillar-grid">
+      <a href="/services#web-design" class="pillar-card">
+        <span class="tag">Design</span>
+        <div class="pillar-visual">
+          <div class="mini-compare">
+            <div class="mini-pane before">
+              <span class="mini-pane-label">Before</span>
+              <div class="mini-line w60"></div>
+              <div class="mini-line w70"></div>
+              <div class="mini-line w40"></div>
+              <div class="mini-line w50"></div>
+            </div>
+            <div class="mini-pane after">
+              <span class="mini-pane-label">After</span>
+              <div class="mini-line w80 accent"></div>
+              <div class="mini-line w50"></div>
+              <div class="mini-btn">Book a viewing</div>
+            </div>
+          </div>
+        </div>
+        <h3>A site that earns its place.</h3>
+        <p class="pillar-caption">Cluttered and unclear becomes one page, one action.</p>
+        <span class="arrow">See web design →</span>
+      </a>
+      <a href="/services#ai-automation" class="pillar-card pillar-red">
+        <span class="tag">Automate</span>
+        <div class="pillar-visual">
+          <div class="mini-flow">
+            <div class="mini-flow-row"><span class="mini-flow-dot"></span>Message received, 11:42pm</div>
+            <div class="mini-flow-row"><span class="mini-flow-dot done"></span>Logged in CRM</div>
+            <div class="mini-flow-row"><span class="mini-flow-dot done"></span>Follow-up sent<span class="mini-flow-check">✓</span></div>
+          </div>
+        </div>
+        <h3>Every lead followed up, without you.</h3>
+        <p class="pillar-caption">In, logged, followed up. While you sleep.</p>
+        <span class="arrow">See AI automation →</span>
+      </a>
+      <a href="/services#crm-setup" class="pillar-card">
+        <span class="tag">Scale</span>
+        <div class="pillar-visual">
+          <div class="mini-chart">
+            <div class="mini-bar-col" style="height:30%"></div>
+            <div class="mini-bar-col" style="height:42%"></div>
+            <div class="mini-bar-col" style="height:38%"></div>
+            <div class="mini-bar-col" style="height:58%"></div>
+            <div class="mini-bar-col" style="height:52%"></div>
+            <div class="mini-bar-col" style="height:74%"></div>
+            <div class="mini-bar-col accent" style="height:100%"></div>
+          </div>
+        </div>
+        <h3>More revenue, same system.</h3>
+        <p class="pillar-caption">Built to handle 10x the traffic without a rebuild.</p>
+        <span class="arrow">See CRM setup →</span>
+      </a>
+    </div>
+    <div style="margin-top:48px;">
+      <a href="/services" class="btn btn-outline-dark">See all services</a>
+    </div>
+  </div>
+</section>
+
+<section id="industries" class="section-light">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="tag">Industries we know best</span>
+      <h2>Four industries, one example system built for each.</h2>
+      <p style="text-align:left; color:var(--gray); max-width:620px; margin-top:8px;">These aren't the only businesses we work with, they're the ones we've built the most systems for. See how the same Design/Automate/Scale approach solves a different problem in each.</p>
+    </div>
+    <div class="industries-grid">
+      <a href="/portfolio#hvac" class="industry-card">
+        <span class="industry-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6.6 10.8c1.6 3.2 4.4 6 7.6 7.6l2.5-2.5c.3-.3.8-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V21c0 .6-.4 1-1 1C10.7 22 2 13.3 2 3c0-.6.4-1 1-1h3.7c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1L6.6 10.8z"/></svg></span>
+        <span class="industry-tag">HVAC</span>
+        <h3>The Never Miss a Call System</h3>
+        <p class="pillar-caption">Every after-hours call answered and booked automatically.</p>
+        <span class="arrow">See the system →</span>
+      </a>
+      <a href="/portfolio#ecommerce" class="industry-card">
+        <span class="industry-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1 12a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></span>
+        <span class="industry-tag">E-commerce</span>
+        <h3>The Repeat Customer System</h3>
+        <p class="pillar-caption">Turns first-time buyers into repeat customers on autopilot.</p>
+        <span class="arrow">See the system →</span>
+      </a>
+      <a href="/portfolio#property-management" class="industry-card">
+        <span class="industry-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 21V7l8-4 8 4v14"/><path d="M9 21v-6h6v6"/><path d="M9 11h.01M15 11h.01M9 15h.01M15 15h.01"/></svg></span>
+        <span class="industry-tag">Property Management</span>
+        <h3>The Small Team, Big Portfolio System</h3>
+        <p class="pillar-caption">One manager runs a portfolio that used to need a team.</p>
+        <span class="arrow">See the system →</span>
+      </a>
+      <a href="/portfolio#saas" class="industry-card">
+        <span class="industry-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
+        <span class="industry-tag">Early-stage SaaS</span>
+        <h3>The Activation &amp; Retention System</h3>
+        <p class="pillar-caption">Guides new sign-ups to their first real win, automatically.</p>
+        <span class="arrow">See the system →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="process" class="section-dark">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="tag">How it works</span>
+      <h2>You're live in two weeks. Not two quarters.</h2>
+    </div>
+    <div class="process-grid">
+      <div class="process-step">
+        <span class="step-num">01</span>
+        <div class="step-label">Audit</div>
+        <h3>We find exactly what's costing you leads right now.</h3>
+        <p>Free call. We look at your site, your funnel, and your current tools. You leave knowing what's broken, what to fix first, and what it'll take to fix it.</p>
+      </div>
+      <div class="process-step">
+        <span class="step-num">02</span>
+        <div class="step-label">Build</div>
+        <h3>Design, automation, and tracking go in as one system.</h3>
+        <p>Not three separate projects handed off between three vendors. One team builds it, connects it, and tests it before you ever see it.</p>
+      </div>
+      <div class="process-step">
+        <span class="step-num">03</span>
+        <div class="step-label">Run</div>
+        <h3>It runs. We watch the numbers and tell you what they mean.</h3>
+        <p>Monthly reports in plain English. If something isn't performing, we adjust it. No waiting until the next quarterly review to find out something broke.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="results" class="section-light">
+  <div class="wrap">
+    <div class="stats-grid" id="statsGrid">
+      <div class="stat-box">
+        <div class="stat-num"><span id="statLeads">0</span>x</div>
+        <div class="stat-visual">
+          <div class="stat-chart">
+            <div class="bar" style="height:32%"></div>
+            <div class="bar" style="height:44%"></div>
+            <div class="bar" style="height:56%"></div>
+            <div class="bar" style="height:74%"></div>
+            <div class="bar accent" style="height:100%"></div>
+          </div>
+        </div>
+        <div class="stat-label">average increase in qualified leads within 90 days</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num"><span id="statHours">0</span>+</div>
+        <div class="stat-visual">
+          <div class="stat-compare">
+            <div class="stat-compare-row"><span class="clabel">Manual</span><span class="bar-track"><span class="bar-fill" style="width:100%"></span></span></div>
+            <div class="stat-compare-row"><span class="clabel">Automated</span><span class="bar-track"><span class="bar-fill" style="width:15%"></span></span></div>
+          </div>
+        </div>
+        <div class="stat-label">hours saved per month per client through automation</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num"><span id="statDays">0</span></div>
+        <div class="stat-visual">
+          <div class="stat-dots">
+            <span class="stat-dot on"></span><span class="stat-dot on"></span><span class="stat-dot on"></span><span class="stat-dot on"></span><span class="stat-dot on"></span><span class="stat-dot on"></span><span class="stat-dot on"></span><span class="stat-dot on"></span><span class="stat-dot on"></span><span class="stat-dot on"></span><span class="stat-dot on"></span><span class="stat-dot on"></span><span class="stat-dot on"></span><span class="stat-dot on"></span><span class="stat-dot"></span><span class="stat-dot"></span><span class="stat-dot"></span><span class="stat-dot"></span><span class="stat-dot"></span><span class="stat-dot"></span>
+          </div>
+        </div>
+        <div class="stat-label">days from kickoff to live system, on average</div>
+      </div>
+    </div>
+
+    <div class="section-head">
+      <span class="tag">Results</span>
+      <h2>What clients say after the system goes live.</h2>
+    </div>
+
+    <div class="quote-grid">
+      <div class="quote-card">
+        <div>
+          <div class="mark">"</div>
+          <p class="quote">Leads used to come through DMs and half got lost. Now every one lands in the CRM and the follow-up happens before I even see the notification.</p>
+        </div>
+        <div class="quote-person">
+          <div class="quote-avatar">TA</div>
+          <div>
+            <div class="name">Temitope Adewale</div>
+            <div class="role">Real estate agency owner, Lagos</div>
+          </div>
+        </div>
+      </div>
+      <div class="quote-card">
+        <div>
+          <div class="mark">"</div>
+          <p class="quote">One automated workflow replaced three tools and a part-time assistant. It paid for itself inside the first month and I haven't touched it since.</p>
+        </div>
+        <div class="quote-person">
+          <div class="quote-avatar alt2">JM</div>
+          <div>
+            <div class="name">James Mitchell</div>
+            <div class="role">Online coaching business, UK</div>
+          </div>
+        </div>
+      </div>
+      <div class="quote-card">
+        <div>
+          <div class="mark">"</div>
+          <p class="quote">The new site is converting better than anything we ran before, and we haven't spent a dollar on ads to it yet. That's the part that surprised me most.</p>
+        </div>
+        <div class="quote-person">
+          <div class="quote-avatar alt3">SC</div>
+          <div>
+            <div class="name">Sarah Connors</div>
+            <div class="role">Ecommerce founder, Canada</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:48px;">
+      <a  href="/portfolio" class="btn btn-outline-dark">View full portfolio</a>
+    </div>
+  </div>
+</section>
+
+<section id="fit-finder" class="section-dark">
+  <div class="wrap">
+    <div class="section-head" style="margin-bottom:40px;">
+      <span class="tag">Not sure where to start?</span>
+      <h2>What's slowing your business down right now?</h2>
+    </div>
+    <div class="fit-finder">
+      <div class="fit-options">
+        <button type="button" class="fit-option" data-fit="hvac">Missed calls after hours</button>
+        <button type="button" class="fit-option" data-fit="ecommerce">Customers who buy once and disappear</button>
+        <button type="button" class="fit-option" data-fit="property-management">A growing portfolio, same small team</button>
+        <button type="button" class="fit-option" data-fit="saas">Sign-ups who never activate</button>
+      </div>
+      <div class="fit-result" id="fitResult">
+        <p class="fit-placeholder">Pick what sounds familiar, we'll show you the system built for it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section-light">
+  <div class="wrap">
+    <div class="cta-final">
+      <div class="cta-glow"></div>
+      <div class="cta-glow-2"></div>
+      <h2>Stop running your business on duct tape.</h2>
+      <p>One call. We look at your site, your funnel, and your current setup, and tell you exactly what's leaking leads and what to do about it. No pitch. No obligation. Just the audit.</p>
+      <div class="hero-cta">
+        <a href="https://calendly.com/aceprime-ceo/new-meeting" target="_blank" rel="noopener" class="btn btn-primary">Book your free audit</a>
+        <a href="mailto:aceprime.ceo@gmail.com" class="btn btn-outline-light">aceprime.ceo@gmail.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="section-light" style="padding-top:0;">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a  href="/"class="logo">Ace<span>Prime</span></a>
+        <p>We design websites, automate your workflows, and build the marketing systems that help businesses grow without the busywork.</p>
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/aceprime/" target="_blank" rel="noopener" class="social-pill" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/aceprime.co/" target="_blank" rel="noopener" class="social-pill" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.43-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07zM12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.8.31-1.48.72-2.15 1.39C1.32 2.69.91 3.37.6 4.17.3 4.93.1 5.81.04 7.08-.02 8.36 0 8.77 0 12s-.01 3.64.05 4.92c.06 1.27.26 2.15.56 2.91.31.8.72 1.48 1.39 2.15.67.67 1.35 1.08 2.15 1.39.76.3 1.64.5 2.91.56C8.36 23.99 8.77 24 12 24s3.64-.01 4.92-.07c1.27-.06 2.15-.26 2.91-.56.8-.31 1.48-.72 2.15-1.39.67-.67 1.08-1.35 1.39-2.15.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.92s-.01-3.64-.07-4.92c-.06-1.27-.26-2.15-.56-2.91-.31-.8-.72-1.48-1.39-2.15C21.31 1.32 20.63.91 19.83.6c-.76-.3-1.64-.5-2.91-.56C15.64.01 15.23 0 12 0zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.41-10.85a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/></svg>
+          </a>
+          <a href="https://x.com/aceprime_co" target="_blank" rel="noopener" class="social-pill" aria-label="X">
+            <svg viewBox="0 0 24 24"><path d="M18.24 2.5h3.3l-7.2 8.23 8.47 10.77h-6.63l-5.2-6.78-5.94 6.78H1.74l7.7-8.8L1.31 2.5h6.8l4.7 6.21 5.43-6.21zM17.1 19.62h1.83L7 4.27H5.05L17.1 19.62z"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@AcePrime_co" target="_blank" rel="noopener" class="social-pill" aria-label="YouTube">
+            <svg viewBox="0 0 24 24"><path d="M23.5 6.19a2.96 2.96 0 0 0-2.08-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.42.59a2.96 2.96 0 0 0-2.08 2.1A30.9 30.9 0 0 0 0 12a30.9 30.9 0 0 0 .5 5.81 2.96 2.96 0 0 0 2.08 2.1c1.92.59 9.42.59 9.42.59s7.5 0 9.42-.59a2.96 2.96 0 0 0 2.08-2.1A30.9 30.9 0 0 0 24 12a30.9 30.9 0 0 0-.5-5.81zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+          </a>
+          <a href="https://www.pinterest.com/aceprime_co/" target="_blank" rel="noopener" class="social-pill" aria-label="Pinterest">
+            <svg viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 0-4.37 23.17c-.1-.94-.2-2.38.04-3.41.22-.93 1.4-5.93 1.4-5.93s-.36-.71-.36-1.77c0-1.65.96-2.89 2.15-2.89 1.02 0 1.51.76 1.51 1.68 0 1.02-.65 2.55-.99 3.97-.28 1.18.6 2.15 1.77 2.15 2.12 0 3.76-2.24 3.76-5.47 0-2.86-2.05-4.86-4.99-4.86-3.4 0-5.39 2.55-5.39 5.18 0 1.03.4 2.13.89 2.73a.36.36 0 0 1 .08.35c-.09.37-.29 1.18-.33 1.34-.05.21-.17.26-.39.16-1.45-.68-2.36-2.78-2.36-4.48 0-3.65 2.65-7 7.65-7 4.02 0 7.14 2.86 7.14 6.69 0 3.99-2.51 7.21-6 7.21-1.17 0-2.27-.61-2.65-1.33 0 0-.58 2.2-.72 2.74-.26 1-.96 2.26-1.43 3.03A12 12 0 1 0 12 0z"/></svg>
+          </a>
+          <a href="https://medium.com/@aceprime" target="_blank" rel="noopener" class="social-pill" aria-label="Medium">
+            <svg viewBox="0 0 24 24"><path d="M13.54 12a6.72 6.72 0 0 1-6.72 6.72A6.72 6.72 0 0 1 .1 12a6.72 6.72 0 0 1 6.72-6.72A6.72 6.72 0 0 1 13.54 12zm7.42 0c0 3.54-1.5 6.42-3.36 6.42-1.85 0-3.36-2.88-3.36-6.42s1.5-6.42 3.36-6.42 3.36 2.87 3.36 6.42zm3.04 0c0 3.17-.53 5.75-1.18 5.75-.65 0-1.18-2.57-1.18-5.75s.53-5.75 1.18-5.75 1.18 2.57 1.18 5.75z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a  href="/about">About</a></li>
+          <li><a  href="/services">Services</a></li>
+          <li><a  href="/portfolio">Portfolio</a></li>
+          <li><a  href="/pricing">Pricing</a></li>
+          <li><a  href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a  href="/services">Web design</a></li>
+          <li><a  href="/services">Digital marketing</a></li>
+          <li><a  href="/services">AI automation</a></li>
+          <li><a  href="/services">CRM setup</a></li>
+          <li><a  href="/services">Email marketing</a></li>
+          <li><a  href="/services">Workflow automation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:aceprime.ceo@gmail.com">aceprime.ceo@gmail.com</a></li>
+          <li><a href="https://wa.me/2347083760056" target="_blank" rel="noopener">WhatsApp Business</a></li>
+          <li><a href="https://calendly.com/aceprime-ceo/new-meeting" target="_blank" rel="noopener">Book a call</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-inner">
+      <p class="tagline">We Design. Automate. Scale.</p>
+      <p class="copyright">© 2026 Ace Prime. All rights reserved. &nbsp;·&nbsp; <a href="/privacy-policy" style="color:inherit; text-decoration:underline;">Privacy Policy</a> &nbsp;·&nbsp; <a href="/terms-of-service" style="color:inherit; text-decoration:underline;">Terms of Service</a></p>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/2347083760056" target="_blank" rel="noopener" class="wa-float" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.03 4 8.94 8.94 0 0 0 3.1 12.92a8.84 8.84 0 0 0 1.3 4.66L3 21.5l3.99-1.05a8.94 8.94 0 0 0 4.99 1.45h.01a8.94 8.94 0 0 0 8.93-8.92 8.86 8.86 0 0 0-3.32-6.66ZM12 19.55a7.4 7.4 0 0 1-3.78-1.03l-.27-.16-2.83.74.75-2.75-.18-.28A7.46 7.46 0 0 1 12 4.45a7.45 7.45 0 0 1 7.45 7.45A7.46 7.46 0 0 1 12 19.55Zm4.1-5.58c-.22-.11-1.31-.65-1.51-.72-.2-.08-.35-.11-.5.11-.15.22-.57.72-.7.87-.13.15-.26.16-.48.05-.22-.11-1.95-.72-2.69-2.45-.2-.34.2-.32.57-1.05.06-.13.03-.24-.03-.34-.06-.11-.5-1.2-.69-1.64-.18-.43-.37-.37-.5-.38h-.43c-.15 0-.39.06-.59.28-.2.22-.79.77-.79 1.87s.81 2.18.92 2.33c.11.15 1.6 2.44 3.88 3.32 1.95.76 2.34.61 2.76.57.42-.04 1.31-.54 1.5-1.06.18-.52.18-.96.13-1.06-.06-.1-.21-.16-.43-.27Z"/></svg>
+</a>
+
+<script src="app.js"></script>
+</body>
+</html>
